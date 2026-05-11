@@ -1,8 +1,8 @@
-# Vercel Landing — CycleRace Pro
+# CycleRace Pro — Landing Page
 
-Mini landing en React (Vite) para desplegar individualmente en Vercel.
+> Landing page moderna para CycleRace Pro, plataforma de eventos ciclistas.
 
-Rápido:
+## Inicio Rápido
 
 ```bash
 # instalar dependencias
@@ -18,15 +18,59 @@ npm run build
 npm run preview
 ```
 
-Instrucciones de despliegue en Vercel:
+Luego abre http://localhost:5173 en tu navegador.
 
-1. Empuja tu repositorio a GitHub/GitLab/Bitbucket.
-2. En Vercel elige "Import Project" y selecciona tu repositorio.
-3. En "Root Directory" especifica `vercel-landing`.
-4. Build command: `npm run build` — Output directory: `dist`.
-5. Despliega.
+## 🎨 Características
 
-Notas:
+- ✨ Diseño moderno y responsivo
+- 📱 Optimizado para todos los dispositivos
+- ⚡ Construido con React + Vite
+- 🎯 Información completa del proyecto
+- 🚀 Listo para despliegue en Vercel
 
-- Este paquete usa Vite + React para un build estático en `dist`.
-- Si quieres, puedo añadir `vercel.json` o ayudarte a conectar el repo.
+## 📦 Estructura
+
+```
+vercel-landing/
+├── index.html          # Punto de entrada
+├── package.json        # Dependencias
+└── src/
+    ├── main.jsx        # Entry point React
+    ├── App.jsx         # Componente principal
+    └── styles.css      # Estilos globales
+```
+
+## 🌐 Despliegue en Vercel
+
+1. **Empuja tu repositorio a GitHub/GitLab:**
+   ```bash
+   git push origin main
+   ```
+
+2. **En Vercel:**
+   - Dirígete a https://vercel.com/new
+   - Selecciona tu repositorio
+   - En "Root Directory" especifica `vercel-landing`
+   - Build command: `npm run build`
+   - Output directory: `dist`
+   - Haz click en "Deploy"
+
+3. ¡Tu landing estará en línea en minutos!
+
+## 💡 Personalización
+
+Edita `src/App.jsx` para cambiar contenido, colores o secciones.
+Modifica `src/styles.css` para personalizar los estilos.
+
+## 📝 Información del Proyecto
+
+Esta landing muestra:
+- Qué es CycleRace Pro
+- Características principales
+- Cómo funciona la plataforma
+- Tecnología utilizada
+- Call-to-action para acceder a la plataforma
+
+---
+
+CycleRace Pro © 2026
